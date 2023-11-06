@@ -1,0 +1,30 @@
+<html>
+<head></head>
+<body>
+<script>
+    const object = {
+    name: "Bag",
+    quantity: 1,
+    color: "black",
+    contents: {
+        Laptop: "Samsung",
+        Charger:1,
+        Headphones: "Pink"
+    },
+    zipperOpen: false,
+    toggleLid: function (lidStatus){
+    this.lidOpen = lidStatus;
+    },
+    newStrapLength: function (Samsung, Pink) {
+        this.contents.Laptop = Samsung;
+        this.contents.Headphones = Pink;
+    },
+    };
+
+    console.log ("Object of Bag: ", object.contents)
+    var bagContents = "contents"; 
+    console.log (object[bagContents])
+
+</script>
+</body>
+</html>
