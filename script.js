@@ -18,6 +18,23 @@
 
 import Backpack from "./pack.js";
 
+const content = 
+<main>
+    <article>
+        <h1>Title</h1>
+        <ul>
+            <li>Name: ${everydayPack.name}</li>
+            <li>Volume: ${everydayPack.volume}</li>
+            <li>Color: ${everydayPack.color}</li>
+            <li>PocketNum: ${everydayPack.pocketNum}</li>
+            <li>StrapLengthL: ${everydayPack.strapLengthL}</li>
+            <li>StrapLengthR: ${everydayPack.strapLengthR}</li>
+            <li>LidOpen: ${everydayPack.lidOpen}</li>
+            <li>DateAcquired: ${everydayPack.dateAcquired}</li>
+        </ul>
+    </article>
+</main>
+
 const everydayPack = new Backpack(
   "Everyday Backpack",
   30,
