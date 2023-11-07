@@ -1,7 +1,7 @@
-import backpack from "./pack";
+import Backpack from "./pack.js";
 
-const newPack = new backpack(
-    newBag,
+const newPack = new Backpack(
+    "newBag",
     "Black",
     30,
     false,
@@ -11,3 +11,5 @@ const newPack = new backpack(
 
 console.log(newPack)
 console.log(newPack.strapLength)
+
+export default newPack;

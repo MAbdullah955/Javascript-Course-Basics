@@ -18,5 +18,6 @@
   "homepage": "https://github.com/MAbdullah955/Javascript-Course-Basics#readme",
   "dependencies": {
     "exports": "^0.0.1"
-  }
+  },
+    "type": "module"
 }

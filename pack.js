@@ -1,4 +1,4 @@
-class backpack {
+class Backpack {
     constructor (
         name,
         color,
@@ -28,4 +28,4 @@ class backpack {
     }
 }
 
-export default backpack;
+export default Backpack;
