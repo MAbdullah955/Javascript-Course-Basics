@@ -1,23 +1,17 @@
 {
-  "name": "javascript-course-basics",
+  "name": "javascript-essential-training-exercise-files",
   "version": "1.0.0",
-  "description": "",
-  "main": "object_task.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MAbdullah955/Javascript-Course-Basics.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MAbdullah955/Javascript-Course-Basics/issues"
-  },
-  "homepage": "https://github.com/MAbdullah955/Javascript-Course-Basics#readme",
-  "dependencies": {
-    "exports": "^0.0.1"
-  },
-    "type": "module"
+  "description": "Repository for exercise files used in the LinkedIn Learning course `JavaScript Essential Training` instructed by Morten Rand-Hendriksen and published 2020.",
+  "main": "index.html",
+  "author": "Morten Rand-Hendriksen",
+  "license": "SEE LICENSE IN LICENSE",
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "prettier": "^2.1.2"
+  }
 }
